@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFBECFA417A772A30024672E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBECFA317A772A30024672E /* UIKit.framework */; };
+		BFBECFA617A772A30024672E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBECFA517A772A30024672E /* Foundation.framework */; };
+		BFBECFA817A772A30024672E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBECFA717A772A30024672E /* CoreGraphics.framework */; };
+		BFBECFAE17A772A30024672E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBECFAC17A772A30024672E /* InfoPlist.strings */; };
+		BFBECFB017A772A30024672E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBECFAF17A772A30024672E /* main.m */; };
+		BFBECFB417A772A30024672E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBECFB317A772A30024672E /* AppDelegate.m */; };
+		BFBECFB617A772A30024672E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBECFB517A772A30024672E /* Default.png */; };
+		BFBECFB817A772A30024672E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBECFB717A772A30024672E /* Default@2x.png */; };
+		BFBECFBA17A772A30024672E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBECFB917A772A30024672E /* Default-568h@2x.png */; };
+		BFBECFBD17A772A30024672E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBECFBC17A772A30024672E /* ViewController.m */; };
+		BFBECFC017A772A30024672E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBECFBE17A772A30024672E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFBECFA017A772A30024672E /* MergingAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergingAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBECFA317A772A30024672E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFBECFA517A772A30024672E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFBECFA717A772A30024672E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFBECFAB17A772A30024672E /* MergingAudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergingAudio-Info.plist"; sourceTree = "<group>"; };
+		BFBECFAD17A772A30024672E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBECFAF17A772A30024672E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBECFB117A772A30024672E /* MergingAudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergingAudio-Prefix.pch"; sourceTree = "<group>"; };
+		BFBECFB217A772A30024672E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFBECFB317A772A30024672E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFBECFB517A772A30024672E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFBECFB717A772A30024672E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFBECFB917A772A30024672E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFBECFBB17A772A30024672E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFBECFBC17A772A30024672E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFBECFBF17A772A30024672E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBECF9D17A772A30024672E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBECFA417A772A30024672E /* UIKit.framework in Frameworks */,
+				BFBECFA617A772A30024672E /* Foundation.framework in Frameworks */,
+				BFBECFA817A772A30024672E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFBECF9717A772A30024672E = {
+			isa = PBXGroup;
+			children = (
+				BFBECFA917A772A30024672E /* MergingAudio */,
+				BFBECFA217A772A30024672E /* Frameworks */,
+				BFBECFA117A772A30024672E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBECFA117A772A30024672E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBECFA017A772A30024672E /* MergingAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFBECFA217A772A30024672E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBECFA317A772A30024672E /* UIKit.framework */,
+				BFBECFA517A772A30024672E /* Foundation.framework */,
+				BFBECFA717A772A30024672E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBECFA917A772A30024672E /* MergingAudio */ = {
+			isa = PBXGroup;
+			children = (
+				BFBECFB217A772A30024672E /* AppDelegate.h */,
+				BFBECFB317A772A30024672E /* AppDelegate.m */,
+				BFBECFBB17A772A30024672E /* ViewController.h */,
+				BFBECFBC17A772A30024672E /* ViewController.m */,
+				BFBECFBE17A772A30024672E /* ViewController.xib */,
+				BFBECFAA17A772A30024672E /* Supporting Files */,
+			);
+			path = MergingAudio;
+			sourceTree = "<group>";
+		};
+		BFBECFAA17A772A30024672E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBECFAB17A772A30024672E /* MergingAudio-Info.plist */,
+				BFBECFAC17A772A30024672E /* InfoPlist.strings */,
+				BFBECFAF17A772A30024672E /* main.m */,
+				BFBECFB117A772A30024672E /* MergingAudio-Prefix.pch */,
+				BFBECFB517A772A30024672E /* Default.png */,
+				BFBECFB717A772A30024672E /* Default@2x.png */,
+				BFBECFB917A772A30024672E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBECF9F17A772A30024672E /* MergingAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBECFC317A772A30024672E /* Build configuration list for PBXNativeTarget "MergingAudio" */;
+			buildPhases = (
+				BFBECF9C17A772A30024672E /* Sources */,
+				BFBECF9D17A772A30024672E /* Frameworks */,
+				BFBECF9E17A772A30024672E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergingAudio;
+			productName = MergingAudio;
+			productReference = BFBECFA017A772A30024672E /* MergingAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBECF9817A772A30024672E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lancy Norbert Fernandes";
+			};
+			buildConfigurationList = BFBECF9B17A772A30024672E /* Build configuration list for PBXProject "MergingAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFBECF9717A772A30024672E;
+			productRefGroup = BFBECFA117A772A30024672E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBECF9F17A772A30024672E /* MergingAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBECF9E17A772A30024672E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBECFAE17A772A30024672E /* InfoPlist.strings in Resources */,
+				BFBECFB617A772A30024672E /* Default.png in Resources */,
+				BFBECFB817A772A30024672E /* Default@2x.png in Resources */,
+				BFBECFBA17A772A30024672E /* Default-568h@2x.png in Resources */,
+				BFBECFC017A772A30024672E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBECF9C17A772A30024672E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBECFB017A772A30024672E /* main.m in Sources */,
+				BFBECFB417A772A30024672E /* AppDelegate.m in Sources */,
+				BFBECFBD17A772A30024672E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFBECFAC17A772A30024672E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBECFAD17A772A30024672E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFBECFBE17A772A30024672E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBECFBF17A772A30024672E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBECFC117A772A30024672E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFBECFC217A772A30024672E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFBECFC417A772A30024672E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergingAudio/MergingAudio-Prefix.pch";
+				INFOPLIST_FILE = "MergingAudio/MergingAudio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFBECFC517A772A30024672E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergingAudio/MergingAudio-Prefix.pch";
+				INFOPLIST_FILE = "MergingAudio/MergingAudio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBECF9B17A772A30024672E /* Build configuration list for PBXProject "MergingAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBECFC117A772A30024672E /* Debug */,
+				BFBECFC217A772A30024672E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBECFC317A772A30024672E /* Build configuration list for PBXNativeTarget "MergingAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBECFC417A772A30024672E /* Debug */,
+				BFBECFC517A772A30024672E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBECF9817A772A30024672E /* Project object */;
+}
